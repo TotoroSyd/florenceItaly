@@ -1,0 +1,115 @@
+:root {
+  --bg-darkmode: black;
+  --bg-default: #fff;
+  --text: black;
+}
+
+.dark {
+  color: #e1e1ff;
+  background-color: #161625;
+}
+
+p {
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+/* style button */
+.btn {
+  background-color: #e1e1ff;
+}
+/* Carousel styling */
+.d-block {
+  height: 800px;
+}
+
+.carousel p {
+  text-align: center;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-caption {
+  background-color: aliceblue;
+  opacity: 70%;
+  color: var(--text);
+}
+
+/* Toggle switch*/
+/* Inspired by Ananya Neogi https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 */
+/* .theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.theme-switch-wrapper > p {
+  margin-left: 0.2em;
+  margin-top: 0.5em;
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+} */
+
+/* .slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+} */
+
+/* .slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} */
+/* /.toggle switch */
+
+/* Article Styling */
+blockquote {
+  font-size: 24px;
+  border-left: rgb(83, 82, 82) thick solid;
+  padding-left: 1rem;
+}
+
+footer {
+  text-align: center;
+}
